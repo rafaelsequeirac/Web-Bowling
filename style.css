@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+.cabecalho{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 99;
+        width: 100vw;
+        height: 45px;
+        position: fixed;
+        top: 0;
+        background: #39966F;
+        box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    }
+
+.cabecalho h1{
+        font-family:'Pacifico';
+        font-size: 26px;
+        color: #fff;
+        letter-spacing: 2px;
+    }
+
+.cabecalho img{
+        width: 66px;
+        margin-top: 6px;
+        margin-left: 5px;
+    }
+
+.menu{
+        width: 100vw;
+        height: 50px;
+        background: #39966F;
+        position: fixed;
+        display: flex;
+        bottom: 0;
+    }
+
+.tab-links{
+    width: 100%;
+    max-width: 360px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.tab-links img{
+    width: 50px;
+    margin-top: 5px;
+}
+
+button{
+        width: 150px;
+        height: 100%;
+        color: #fff;
+        border: none;
+        background: transparent;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        outline: none;
+        position: relative;
+    }
+
+button::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color:#fff;
+    transition: .4s;
+}
+
+
+.active{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+
+.tab-content{
+    width: 100vw;
+    max-width: 360px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
