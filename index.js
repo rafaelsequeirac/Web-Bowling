@@ -43,3 +43,8 @@ function hideTextElements() {
   versusTxt.style.display = "none"
   duplaTxt.style.display = "none"
 }
+
+$( "#btn" ).click(function() {
+  $( "#input-container" ).append('<input type="text" name="jogador" id="jogador" placeholder="Nome do jogador"> <input type="number" name="pontos" id="pontos" placeholder="Pontuação">');
+  
+});
