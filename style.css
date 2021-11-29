@@ -133,6 +133,7 @@ button::after{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 18px;
     font-weight: 400;
+    outline: none;
 }
 
 .jogadores{
