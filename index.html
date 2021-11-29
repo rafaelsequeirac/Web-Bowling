@@ -9,23 +9,38 @@
     
 </head>
 <body>
-    <div class="cabecalho"><h1>Boliche</h1><img src="./img/pinos-top.png"></div>
-            <div class="tab-content">
-                <section id="versusTxt">
-                    <h1>Quantas pistas?</h1>
-                        <select name="number-pistas" id="pistas">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="3">4</option>
-                            <option value="3">5</option>
-                            <option value="3">6</option>
-                        </select>
-                </section>
-                <section id="duplaTxt">
+
+<header>
+        <div class="cabecalho"><h1>Boliche</h1><img src="./img/pinos-top.png"></div>
+</header>
+
+<main>
+            <section class="tab-content-versus">
+                <article id="versusTxt">
+                    <div class="container-pistas">
+                        <h1>Quantas pistas?</h1>
+                            <select id="pistas">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="3">4</option>
+                                <option value="3">5</option>
+                                <option value="3">6</option>
+                            </select>
+                    </div>
+                    <div class="jogadores">
+                        <h1>Jogadores</h1> <h1>Pontuação</h1>
+                    </div>
+                </article>
+            </section>
+            <section class="tab-content-dupla">
+                <article id="duplaTxt">
                     <h1>teste</h1>
-                </section>
-            </div>
+                </article>
+            </section>
+
+</main>
+
         <div class="menu">
             <div class="tab-links">
                 <button class="item active" data="versus">Versus</button>
@@ -35,4 +50,5 @@
         </div>
         <script src="tabs.js"></script>
 </body>
+
 </html>
