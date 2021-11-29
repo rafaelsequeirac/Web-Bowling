@@ -103,7 +103,6 @@ button::after{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FCF7F8;
 }
 
 .tab-content h1{
