@@ -182,14 +182,24 @@ input{
 .btn{
     width: 80%;
     height: 30px;
-    margin:15px 0 0 35px ;
+    margin:5px 0 0 35px ;
     border-radius: 8px;
-    background-color: #3A405A;
+    background:none;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid #39966F;
+    color:#39966F;
 }
 
+.btn-jogar{
+    width: 90%;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 18px;
+    background-color:#39966F ;
+}
 
 /* -----DUPLA----- */
 
