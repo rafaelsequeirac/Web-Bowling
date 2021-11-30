@@ -201,6 +201,10 @@ input{
     background-color:#39966F ;
 }
 
+.btn-jogar:active{
+    background-color:#2b634b ;
+}
+
 /* -----DUPLA----- */
 
 .tab-content-dupla{
