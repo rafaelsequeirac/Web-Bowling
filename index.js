@@ -63,5 +63,5 @@ btnJogar.addEventListener('click', () => {
   let pist = Number(pistas.value)
   let div = Number(calc);
   // console.log(pist);
-  window.navigator.vibrate(200);
+  window.navigator.vibrate(100);
 });
