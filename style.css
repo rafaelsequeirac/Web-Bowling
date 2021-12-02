@@ -14,38 +14,38 @@
 }
 
 .cabecalho{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 99;
-        width: 100vw;
-        height: 45px;
-        position: fixed;
-        top: 0;
-        background: #39966F;
-        box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    width: 100vw;
+    height: 45px;
+    position: fixed;
+    top: 0;
+    background: #39966F;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
     }
 
 .cabecalho h1{
-        font-family:'Pacifico';
-        font-size: 26px;
-        color: #fff;
-        letter-spacing: 2px;
+    font-family:'Pacifico';
+    font-size: 26px;
+    color: #fff;
+    letter-spacing: 2px;
     }
 
 .cabecalho img{
-        width: 66px;
-        margin-top: 6px;
-        margin-left: 5px;
+    width: 66px;
+    margin-top: 6px;
+    margin-left: 5px;
     }
 
 .menu{
-        width: 100vw;
-        height: 50px;
-        background: #39966F;
-        position: fixed;
-        display: flex;
-        bottom: 0;
+    width: 100vw;
+    height: 50px;
+    background: #39966F;
+    position: fixed;
+    display: flex;
+    bottom: 0;
     }
 
 .tab-links{
@@ -63,30 +63,18 @@
 }
 
 button{
-        width: 150px;
-        height: 100%;
-        color: #fff;
-        border: none;
-        background: transparent;
-        text-transform: uppercase;
-        font-size: 20px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-        outline: none;
-        position: relative;
+    width: 150px;
+    height: 100%;
+    color: #fff;
+    border: none;
+    background: transparent;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    outline: none;
+    position: relative;
     }
-
-/* button::after{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    content: "";
-    height: 2px;
-    width: 0%;
-    background-color:#fff;
-    
-} */
-
 
 .active{
     color: #fff;
@@ -165,14 +153,15 @@ input{
     border-radius: 5px;
     padding: 5px;
     margin-bottom: 10px;
+    
 }
 
-#jogador{
+.jog{
     width: 190px;
     height: 35px;
 }
 
-#pontos{
+.pont{
     width: 120px;
     height: 35px;
 }
@@ -194,6 +183,10 @@ input{
     color:#39966F;
 }
 
+.btn:active{
+    transition: .4s;
+}
+
 .btn-jogar{
     width: 90%;
     height: 50px;
@@ -207,7 +200,7 @@ input{
     background-color:#2b634b ;
 }
 
-/* -----DUPLA----- */
+/* -----------------DUPLA----------------- */
 
 .tab-content-dupla{
     width: 100%;
